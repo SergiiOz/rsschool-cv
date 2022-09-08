@@ -5,8 +5,8 @@
 -   **adress:** Rivne, Ukraine
 -   **phone:** +38(067)363 34 32
 -   **email:** s.ozinkovskyi@gmail.com
--   **linkedIn:** [www.linkedin.com/in/sergiiozinkovskyi](www.linkedin.com/in/sergiiozinkovskyi)
--   **gitHub:** [www.github.com/SergiiOz](www.github.com/SergiiOz)
+-   **linkedIn:** [www.linkedin.com/in/sergiiozinkovskyi](https://linkedin.com/in/sergiiozinkovskyi)
+-   **gitHub:** [www.github.com/SergiiOz](https://github.com/SergiiOz)
 
 ## Summary:
 
@@ -43,15 +43,15 @@ enable me to make decisions to solve problems.
 
 ## Additional education
 
--   #### **SoftServe Academy**
+-   #### SoftServe Academy
 
-    -   “React Marathon”,
+    -   React Marathon,
 
--   #### **Beetroot Academy**
+-   #### Beetroot Academy
 
     -   [Front-end Development](https://lms.beetroot.academy/diploma/cjyjtowak9bk40836vkny3blk)
 
--   #### **Prometheus**
+-   #### Prometheus
 
-    -   “Basic Web UI”,
-    -   “Learning How to Learn”
+    -   Basic Web UI,
+    -   Learning How to Learn
