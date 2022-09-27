@@ -9,10 +9,12 @@ a<!DOCTYPE html>
   </head>
   <body>
     <div class="wrapper">
+      <!--HEADER-->
       <header>
         <h1>Sergii Ozinkovskyi</h1>
         <h2>Front-end developer</h2>
       </header>
+      <!--MAIN-->
       <main>
         <article>
           <h2>Details:</h2>
@@ -51,7 +53,111 @@ a<!DOCTYPE html>
             responsibility and enable me to make decisions to solve problems.
           </p>
         </article>
+        <!--CODE EXAMPLE-->
+        <article>
+          <h2>Code example:</h2>
+          <p>
+            description: The function takes any number of strings and returns
+            the sum of their lengths. Example:
+            <code>console.log(sumOfLen('hello', 'hi')); //7</code>
+          </p>
+          <pre>
+                 <code> 
+                    //(..args) - it's array strings
+                    const sumOfLen = (...args) => { 
+                        let sumLengths = 0; 
+                        args.map((str) => { 
+                            return (sumLengths +=str.length); 
+                        }); 
+                        return sumLengths; 
+                    };
+                </code>
+             </pre>
+        </article>
+        <!--EXPERIANCE-->
+        <article>
+          <h2>Experience:</h2>
+          <section>
+            <!--Experiance RPK-->
+            <h3>2011-2022 "RPK" LTD</h3>
+            <p>Sales Manager (Private Label brands) and Purchasing Manager</p>
+            <p>Production of natural spices and seasonings</p>
+            <ul>
+              <li>
+                Together with the team we started the production of spices
+              </li>
+              <li>
+                Client search and contracting (agreed to cooperate with 6
+                national networks, introduced more than 100 SKUs)
+              </li>
+              <li>Developed calculations</li>
+              <li>Preparation of commercial offers and specifications</li>
+              <li>
+                At the same time engaged in the purchase of raw materials for
+                production
+              </li>
+            </ul>
+          </section>
+          <section>
+            <!--Experiance Trade-Pack-->
+            <h3>2007-2011 Private Enterprise «Trade Pack»</h3>
+            <p>Sales Manager</p>
+            <p>Sales spices</p>
+            <ul>
+              <li>Direct sales and ordering from distributors</li>
+              <li>Search for new clients</li>
+              <li>Accounts receivable control</li>
+              <li>Control of shipment of products</li>
+              <li>Document management</li>
+              <li>Team management experience up to 4</li>
+            </ul>
+          </section>
+        </article>
+        <!--EDUCATION-->
+        <article>
+          <h2>Education:</h2>
+          <section>
+            <h3>
+              National University of Water Management and Nature Resources Use
+            </h3>
+            <p>Mechanical engineering</p>
+            <p>
+              Master of Science (M.S.) Automobile transport, Automobile
+              engineering
+            </p>
+          </section>
+        </article>
+        <!--ADDITIONAL EDUCATION-->
+        <article>
+          <h2>Additional education</h2>
+          <section>
+            <h3>SoftServe Academy</h3>
+            <p>React Marathon</p>
+          </section>
+          <section>
+            <h3>Beetroot Academy</h3>
+            <p>
+              <a
+                href="https://lms.beetroot.academy/diploma/cjyjtowak9bk40836vkny3blk"
+                >Front-end Development</a
+              >
+            </p>
+          </section>
+          <section>
+            <h3>Prometheus</h3>
+            <p>Basic Web UI</p>
+            <p>Learning How to Learn</p>
+          </section>
+        </article>
+        <!--Language-->
+        <article>
+          <h2>Languages</h2>
+          <p>Ukrainian: <span>native</span></p>
+          <p>Russian: <span>native</span></p>
+          <p>English: <span>pre-intermediate (A2)</span></p>
+        </article>
       </main>
+      <!--/MAIN-->
     </div>
   </body>
 </html>
