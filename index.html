@@ -1,10 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" >
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>Ozinkovskyi CV</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CV Sergii Ozinkovskyi</title>
+        <link rel="stylesheet" href="./style.css" />
     </head>
-    <body></body>
+    <body>
+        <div class="wrapper">
+          <!--WRAPPER LEFT-->
+          <div class="wrapper--left">
+            <!--HEADER-->
+            <header class="header">
+              <div class="header__image-block">
+                <h1 class="header__title"><span>Sergii</span><br/> <span>Ozinkovskyi</span></h1>
+                <h2>Front-end developer</h2>
+            </header>
+            <!--ASIDE-->
+            <aside class="aside">
+              <!--SKILLS-->
+                <article>
+                    <h2>Professional skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>SCSS</li>
+                        <li>Bootsrap</li>
+                    </ul>
+                </article>
+                <!--ADDITIONAL SKILLS-->
+                <article>
+                    <h2>Additional skills</h2>
+                    <ul>
+                      <li>React</li>
+                      <li>Redux</li>
+                    </ul>
+                </article>
+                <!--CODE EXAMPLE-->
+                <article>
+                  <h2>Code example</h2>
+                  <p>
+                      description: The function takes any number of strings
+                      and returns the sum of their lengths. Example:
+                     </p>
+<pre class="aside__code-block">
+  <code> 
+    //(..args) - it's array strings
+    const sumOfLen = (...args) => { 
+        let sumLengths = 0; 
+        args.map((str) => { 
+            return (sumLengths +=str.length); 
+        }); 
+        return sumLengths; 
+    };
+    console.log(sumOfLen('hello', 'hi')); //7
+  </code>
+</pre>
+              <!--Language-->
+              <article>
+                <h2>Languages</h2>
+                <p>Ukrainian: <span>native</span></p>
+                <p>Russian: <span>native</span></p>
+                <p>English: <span>pre-intermediate (A2)</span></p>
+              </article>
+            </aside>
+          </div>
+          <!--WRAPPER RIGHT-->
+          <div class="wrapper--right">
+            <!--MAIN-->
+            <main class="main">
+                <article>
+                    <h2>Details</h2>
+                    <hr/>
+                    <address>
+                        <p>adress: Rivne, Ukraine</p>
+                        <p>
+                            phone:
+                            <a href="tel:+380673633432">+38(067)363-34-32</a>
+                        </p>
+                        <p>
+                            email:
+                            <a href="mailto:s.ozinkovskyi@gmail.com"
+                                >s.ozinkovskyi@gmail.com</a
+                            >
+                        </p>
+                        <p>
+                            linkedIn:
+                            <a href="https://www.linkedin.com/in/sergiiozinkovskyi"
+                                >https://linkedin.com/in/sergiiozinkovskyi</a
+                            >
+                        </p>
+                        <p>
+                            gitHub:
+                            <a href="https://www.github.com/SergiiOz"
+                                >https://github.com/SergiiOz</a
+                            >
+                        </p>
+                    </address>
+                </article>
+                <article>
+                    <h2>Summary</h2>
+                    <hr/>
+                    <p>
+                        I start career as a Front end developer, at this stage I
+                        can convert design layouts to interactive web pages
+                        using HTML, CSS, JavaScript. In my work I use SASS
+                        preprocessors and work with GIT. I also started to study
+                        React.js
+                    </p>
+                    <p>
+                        Before: I'm a Sales Manager with over 10 years
+                        ofexperience. It gives me an understanding of the
+                        importance of timing and responsibility and enable me to
+                        make decisions to solve problems.
+                    </p>
+                </article>
+      
+                <!--EXPERIANCE-->
+                <article>
+                    <h2>Experience</h2>
+                    <hr/>
+                    <section>
+                        <!--Experiance RPK-->
+                        <h3>2011-2022 "RPK" LTD</h3>
+                        <p>
+                            Sales Manager (Private Label brands) and Purchasing
+                            Manager
+                        </p>
+                        <p>Production of natural spices and seasonings</p>
+                        <ul>
+                            <li>
+                                Together with the team we started the production
+                                of spices
+                            </li>
+                            <li>
+                                Client search and contracting (agreed to
+                                cooperate with 6 national networks, introduced
+                                more than 100 SKUs)
+                            </li>
+                            <li>Developed calculations</li>
+                            <li>
+                                Preparation of commercial offers and
+                                specifications
+                            </li>
+                            <li>
+                                At the same time engaged in the purchase of raw
+                                materials for production
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <!--Experiance Trade-Pack-->
+                        <h3>2007-2011 Private Enterprise «Trade Pack»</h3>
+                        <p>Sales Manager</p>
+                        <p>Sales spices</p>
+                        <ul>
+                            <li>Direct sales and ordering from distributors</li>
+                            <li>Search for new clients</li>
+                            <li>Accounts receivable control</li>
+                            <li>Control of shipment of products</li>
+                            <li>Document management</li>
+                            <li>Team management experience up to 4</li>
+                        </ul>
+                    </section>
+                </article>
+                <!--EDUCATION-->
+                <article>
+                    <h2>Education</h2>
+                    <hr/>
+                    <section>
+                        <h3>
+                            National University of Water Management and Nature
+                            Resources Use
+                        </h3>
+                        <p>Mechanical engineering</p>
+                        <p>
+                            Master of Science (M.S.) Automobile transport,
+                            Automobile engineering
+                        </p>
+                    </section>
+                </article>
+                <!--ADDITIONAL EDUCATION-->
+                <article>
+                    <h2>Additional education</h2>
+                    <hr/>
+                    <section>
+                        <h3>SoftServe Academy</h3>
+                        <p>React Marathon</p>
+                    </section>
+                    <section>
+                        <h3>Beetroot Academy</h3>
+                        <p>
+                            <a href="https://lms.beetroot.academy/diploma/cjyjtowak9bk40836vkny3blk"
+                                >Front-end Development</a>
+                        </p>
+                    </section>
+                    <section>
+                        <h3>Prometheus</h3>
+                        <p>Basic Web UI</p>
+                        <p>Learning How to Learn</p>
+                    </section>
+                </article>
+            </main>
+          </div>  
+        </div>
+    </body>
 </html>
